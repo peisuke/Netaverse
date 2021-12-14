@@ -15,4 +15,4 @@
 ## 本プロジェクトをクローン
 
 - 先程のAtomicSwapとUserInformationのcontract addressを[meta.js](https://github.com/peisuke/Netaverse/blob/master/Assets/WebGLTemplates/Tmpl/TemplateData/meta.js)の先頭に記載。
-- 後はUnityでWebGLでビルドして、ホスティングすれば
+- 後はUnityでWebGLでビルドして、ホスティングすればOK
