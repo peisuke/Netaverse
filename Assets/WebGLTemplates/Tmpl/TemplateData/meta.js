@@ -26,7 +26,6 @@ async function connect() {
     setInterval(function() {
       ethereum.request({ method: 'eth_requestAccounts' })
         .then(accounts => {
-          console.log('test');
           if (accounts[0] !== userAccount) {
             Logout();
           }          
