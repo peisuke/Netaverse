@@ -54,6 +54,7 @@ public class RecieveItemControler : MonoBehaviour
     
     public void OnClickApprove()
     {
+        Debug.Log("OnClickApprove");
 #if UNITY_WEBGL && !UNITY_EDITOR
         var callbackParameter = new SendApproveParameter
         {
